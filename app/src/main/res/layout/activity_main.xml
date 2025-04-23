@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#E3F2FD">
+
+    <!-- Form Başlığı -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Uçuş Bilgileri"
+        android:textSize="24sp"
+        android:textColor="#0D47A1"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Kalkış Havalimanı -->
+    <EditText
+        android:id="@+id/airportFromInput"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="Kalkış Havalimanı (Örn: İstanbul)"
+        android:inputType="text"
+        android:background="@drawable/edittext_bg"
+        android:textColor="#01579B"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Varış Havalimanı -->
+    <EditText
+        android:id="@+id/airportToInput"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="Varış Havalimanı (Örn: Berlin)"
+        android:inputType="text"
+        android:background="@drawable/edittext_bg"
+        android:textColor="#01579B"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Kapı Numarası -->
+    <EditText
+        android:id="@+id/gateInput"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="Kapı Numarası (Örn: 25B)"
+        android:inputType="text"
+        android:background="@drawable/edittext_bg"
+        android:textColor="#01579B"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Kalkış Saati -->
+    <EditText
+        android:id="@+id/flightTimeInput"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="Kalkış Saati (Örn: 14:30)"
+        android:inputType="time"
+        android:background="@drawable/edittext_bg"
+        android:textColor="#01579B"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Başlat Butonu -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Başlayalım!"
+        android:textSize="18sp"
+        android:textColor="#00796B"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/saveFlightInfoButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Kaydet"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#009688"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Geri Sayım Göstergesi -->
+    <TextView
+        android:id="@+id/remainingTimeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#E53935"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:visibility="gone"
+        android:padding="16dp"
+        android:background="#FFEBEE"/>
+
+    <!-- Git Butonu (En Alta) -->
+    <Button
+        android:id="@+id/btnStartCamera"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Git"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#5E35B1"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
