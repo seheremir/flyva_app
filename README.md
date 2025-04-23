@@ -22,10 +22,6 @@ Flyva is a smart mobile application that guides users from their home to the air
 | ![Home](assets/screens/home_screen.png) | ![Form](assets/screens/flight_form.png) | ![Login](assets/screens/login_screen.png) | ![Dashboard](assets/screens/dashboard_screen.png) |
 
 
-> 💡 To add your own screenshots:
-> - Create a folder named `assets/screens/` in the root of your repository.
-> - Save your screenshots there (e.g., `home.png`, `form.png`, etc.).
-> - Link them using the markdown syntax: `![AltText](path/to/image.png)`
 
 ---
 
